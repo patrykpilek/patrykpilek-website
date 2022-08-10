@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Foundation\Application;
+use App\Http\Controllers\Pages\PagesController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -15,14 +15,10 @@ use Inertia\Inertia;
 |
 */
 
-Route::get('/', function () {
-    return Inertia::render('Welcome', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
-    ]);
-});
+Route::redirect('/', '/home');
+Route::get('/home', [PagesController::class, 'home'])->name('home');
+Route::get('/blog', [PagesController::class, 'blog'])->name('blog');
+Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 
 Route::middleware([
     'auth:sanctum',

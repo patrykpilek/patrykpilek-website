@@ -5,6 +5,9 @@ import Welcome from '@/Components/Welcome.vue';
 
 <template>
     <AppLayout title="Dashboard">
+
+        <template #nav></template>
+
         <template #header>
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">
                 Dashboard

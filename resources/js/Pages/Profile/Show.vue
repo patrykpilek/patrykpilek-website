@@ -15,10 +15,15 @@ defineProps({
 
 <template>
     <AppLayout title="Profile">
+
+        <template #nav></template>
+
         <template #header>
-            <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-                Profile
-            </h2>
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="flex-1 min-w-0">
+                    <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:text-3xl sm:truncate">Profile</h2>
+                </div>
+            </div>
         </template>
 
         <div>
@@ -36,9 +41,9 @@ defineProps({
                 </div>
 
                 <div v-if="$page.props.jetstream.canManageTwoFactorAuthentication">
-                    <TwoFactorAuthenticationForm 
+                    <TwoFactorAuthenticationForm
                         :requires-confirmation="confirmsTwoFactorAuthentication"
-                        class="mt-10 sm:mt-0" 
+                        class="mt-10 sm:mt-0"
                     />
 
                     <JetSectionBorder />
@@ -53,5 +58,7 @@ defineProps({
                 </template>
             </div>
         </div>
+
+        <template #footer></template>
     </AppLayout>
 </template>

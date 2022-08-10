@@ -42,6 +42,11 @@
 
 ### ToDo
 - [x] Install Jetstream package
-- [ ] Create Home page.
-- [ ] Create Blog page.
-- [ ] Create Contact page.
+- [x] Create Home, Blog and Contact simple pages.
+- [ ] Change login page template
+- [ ] Change register page template
+- [ ] Change reset password page template
+- [ ] Change two-factor template
+- [ ] Create verify email page.
+- [ ] Create confirm password page.
+
