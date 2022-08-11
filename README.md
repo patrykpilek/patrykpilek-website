@@ -44,7 +44,7 @@
 - [x] Install Jetstream package
 - [x] Create Home, Blog and Contact simple pages.
 - [x] Change login page template
-- [ ] Change register page template
+- [X] Change register page template
 - [ ] Change reset password page template
 - [ ] Change two-factor template
 - [ ] Create verify email page.
