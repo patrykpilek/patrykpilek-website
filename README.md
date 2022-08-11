@@ -47,7 +47,7 @@
 - [X] Change register page template
 - [x] Change forgot password page template
 - [x] Change reset password page template
-- [ ] Change two-factor template
-- [x] Change verify email page.
-- [ ] Change confirm password page.
+- [x] Change two-factor template
+- [x] Change verify email page
+- [ ] Change confirm password page
 
