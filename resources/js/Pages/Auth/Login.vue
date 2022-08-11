@@ -35,7 +35,7 @@ const submit = () => {
         <div class="min-h-full flex flex-col justify-center py-24 sm:px-6 lg:px-8">
             <div class="sm:mx-auto sm:w-full sm:max-w-md">
 
-                <div v-if="status" class="mb-4 font-medium text-sm text-green-600">
+                <div v-if="status" class="mb-4 text-center font-medium text-sm text-green-600">
                     {{ status }}
                 </div>
 
