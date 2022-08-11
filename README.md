@@ -48,6 +48,6 @@
 - [x] Change forgot password page template
 - [x] Change reset password page template
 - [ ] Change two-factor template
-- [ ] Create verify email page.
-- [ ] Create confirm password page.
+- [x] Change verify email page.
+- [ ] Change confirm password page.
 
