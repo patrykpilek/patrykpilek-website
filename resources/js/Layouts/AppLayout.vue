@@ -20,7 +20,7 @@ const logout = () => {
 
         <JetBanner />
 
-        <div class="min-h-screen bg-white">
+        <div class="bg-white">
             <!-- Nav Page -->
             <nav v-if="$slots.nav" >
                 <Navbar />

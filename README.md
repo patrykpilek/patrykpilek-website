@@ -43,7 +43,7 @@
 ### ToDo
 - [x] Install Jetstream package
 - [x] Create Home, Blog and Contact simple pages.
-- [ ] Change login page template
+- [x] Change login page template
 - [ ] Change register page template
 - [ ] Change reset password page template
 - [ ] Change two-factor template
