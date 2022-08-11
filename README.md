@@ -45,6 +45,7 @@
 - [x] Create Home, Blog and Contact simple pages.
 - [x] Change login page template
 - [X] Change register page template
+- [x] Change forgot password page template
 - [ ] Change reset password page template
 - [ ] Change two-factor template
 - [ ] Create verify email page.

@@ -87,7 +87,7 @@ const submit = () => {
 
                         <JetLabel for="terms">
                             <div class="flex items-center">
-                                <JetCheckbox id="terms" v-model:checked="form.terms" name="terms" class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded" />
+                                <JetCheckbox id="terms" v-model:checked="form.terms" name="terms" class="h-4 w-4 text-sky-600 focus:ring-sky-500 border-gray-300 rounded" />
 
                                 <div class="ml-2">
                                     I agree to the <a target="_blank" :href="route('terms.show')" class="underline text-sm text-gray-600 hover:text-gray-900">Terms of Service</a> and <a target="_blank" :href="route('policy.show')" class="underline text-sm text-gray-600 hover:text-gray-900">Privacy Policy</a>
@@ -97,7 +97,7 @@ const submit = () => {
                         </JetLabel>
 
                         <div>
-                            <JetButton class="w-full flex items-center justify-center bg-gradient-to-r from-sky-400 to-blue-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-sky-700 hover:to-blue-700" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
+                            <JetButton class="w-full flex items-center justify-center bg-gradient-to-r from-sky-400 to-blue-600 bg-origin-border px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white hover:from-sky-700 hover:to-blue-700" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
                                 Sing Up
                             </JetButton>
                         </div>
