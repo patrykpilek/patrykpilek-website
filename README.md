@@ -49,5 +49,10 @@
 - [x] Change reset password page template
 - [x] Change two-factor template
 - [x] Change verify email page
-- [ ] Change confirm password page
+- [x] Change confirm password page
+- [ ] User Profile - Profile Information
+- [ ] User Profile - Update Password
+- [ ] User Profile - Two-Factor Authentication
+- [ ] User Profile - Browser Sessions
+- [ ] User Profile - Delete Account
 
