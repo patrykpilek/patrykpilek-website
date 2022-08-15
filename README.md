@@ -50,7 +50,7 @@
 - [x] Change two-factor template
 - [x] Change verify email page
 - [x] Change confirm password page
-- [ ] User Profile - Profile Information
+- [x] User Profile - Profile Information
 - [ ] User Profile - Update Password
 - [ ] User Profile - Two-Factor Authentication
 - [ ] User Profile - Browser Sessions
