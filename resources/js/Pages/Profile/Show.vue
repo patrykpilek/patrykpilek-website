@@ -28,7 +28,7 @@ defineProps({
         </template>
 
         <div class="max-w-screen-xl mx-auto pb-6 px-4 sm:px-6 lg:pb-16 lg:px-8">
-            <div class="bg-white rounded-lg shadow overflow-hidden">
+            <div class="bg-white rounded-lg shadow-2xl shadow-blue-500/50 sm:rounded-lg overflow-hidden">
                 <div class="divide-y divide-gray-200 lg:grid lg:grid-cols-12 lg:divide-y-0 lg:divide-x">
                     <TabGroup :defaultIndex="0">
                         <aside class="py-6 lg:col-span-3">
@@ -75,19 +75,19 @@ defineProps({
                                 </TabPanel>
 
                                 <TabPanel>
-                                    <UpdatePasswordForm class="mt-10 sm:mt-0" />
+                                    <UpdatePasswordForm />
                                 </TabPanel>
 
                                 <TabPanel>
-                                    <TwoFactorAuthenticationForm :requires-confirmation="confirmsTwoFactorAuthentication" class="mt-10 sm:mt-0" />
+                                    <TwoFactorAuthenticationForm :requires-confirmation="confirmsTwoFactorAuthentication" />
                                 </TabPanel>
 
                                 <TabPanel>
-                                    <LogoutOtherBrowserSessionsForm :sessions="sessions" class="mt-10 sm:mt-0" />
+                                    <LogoutOtherBrowserSessionsForm :sessions="sessions" />
                                 </TabPanel>
 
                                 <TabPanel>
-                                    <DeleteUserForm class="mt-10 sm:mt-0" />
+                                    <DeleteUserForm />
                                 </TabPanel>
                             </TabPanels>
 

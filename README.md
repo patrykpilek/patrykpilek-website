@@ -51,7 +51,7 @@
 - [x] Change verify email page
 - [x] Change confirm password page
 - [x] User Profile - Profile Information
-- [ ] User Profile - Update Password
+- [x] User Profile - Update Password
 - [ ] User Profile - Two-Factor Authentication
 - [ ] User Profile - Browser Sessions
 - [ ] User Profile - Delete Account
