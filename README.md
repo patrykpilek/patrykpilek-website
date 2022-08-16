@@ -53,6 +53,6 @@
 - [x] User Profile - Profile Information
 - [x] User Profile - Update Password
 - [x] User Profile - Two-Factor Authentication
-- [ ] User Profile - Browser Sessions
+- [x] User Profile - Browser Sessions
 - [ ] User Profile - Delete Account
 
