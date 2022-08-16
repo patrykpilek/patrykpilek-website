@@ -52,7 +52,7 @@
 - [x] Change confirm password page
 - [x] User Profile - Profile Information
 - [x] User Profile - Update Password
-- [ ] User Profile - Two-Factor Authentication
+- [x] User Profile - Two-Factor Authentication
 - [ ] User Profile - Browser Sessions
 - [ ] User Profile - Delete Account
 
