@@ -54,5 +54,5 @@
 - [x] User Profile - Update Password
 - [x] User Profile - Two-Factor Authentication
 - [x] User Profile - Browser Sessions
-- [ ] User Profile - Delete Account
+- [x] User Profile - Delete Account
 

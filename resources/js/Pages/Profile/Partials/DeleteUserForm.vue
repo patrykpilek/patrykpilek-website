@@ -38,16 +38,15 @@ const closeModal = () => {
 </script>
 
 <template>
-    <JetActionSection>
-        <template #title>
-            Delete Account
-        </template>
+    <!-- Delete Account -->
+    <div class="py-6 px-4 sm:p-6 lg:pb-8">
 
-        <template #description>
-            Permanently delete your account.
-        </template>
+        <div>
+            <h2 class="text-lg leading-6 font-medium text-gray-900">Delete Account</h2>
+            <p class="mt-1 text-sm text-gray-500">Permanently delete your account.</p>
+        </div>
 
-        <template #content>
+        <div class="mt-8">
             <div class="max-w-xl text-sm text-gray-600">
                 Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.
             </div>
@@ -72,7 +71,7 @@ const closeModal = () => {
                             ref="passwordInput"
                             v-model="form.password"
                             type="password"
-                            class="mt-1 block w-3/4"
+                            class="mt-1 appearance-none block w-3/4 w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                             placeholder="Password"
                             @keyup.enter="deleteUser"
                         />
@@ -96,6 +95,6 @@ const closeModal = () => {
                     </JetDangerButton>
                 </template>
             </JetDialogModal>
-        </template>
-    </JetActionSection>
+        </div>
+    </div>
 </template>
